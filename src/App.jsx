@@ -331,7 +331,7 @@ export default function App() {
             {PERIODS.map(p => <option key={p} value={p}>{p === "All" ? "All Periods" : p}</option>)}
           </select>
           <select value={sort} onChange={e => setSort(e.target.value)} style={{ padding: "3px 6px", borderRadius: "5px", border: "1px solid #252535", background: "#111118", color: "#555", fontSize: "10px", fontWeight: 600, cursor: "pointer", outline: "none" }}>
-            <option value="priority">Priority</option><option value="timeline">Timeline</option><option value="category">Category</option><option value="company">Company</option>
+            <option value="priority">Priority</option><option value="timeline">Timeline</option><option value="category">Category</option><option value="company">Company A-Z</option>
           </select>
           <button onClick={() => setMyOnly(!myOnly)} style={{ padding: "3px 9px", borderRadius: "5px", border: `1px solid ${myOnly ? "#16c79a" : "#252535"}`, background: myOnly ? "rgba(22,199,154,0.12)" : "transparent", color: myOnly ? "#16c79a" : "#555", fontSize: "10px", fontWeight: 600, cursor: "pointer", display: "flex", alignItems: "center", gap: "3px" }}><Ic.Target /> My Picks</button>
         </div>
