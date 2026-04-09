@@ -308,7 +308,7 @@ export default function App() {
     <div style={{ minHeight: "100vh", background: "#0a0a10", color: "#e8e8e8", fontFamily: "'DM Sans', sans-serif" }}>
       <div style={{ padding: "20px 20px 14px", borderBottom: "1px solid #181828" }}>
         <h1 style={{ fontSize: "20px", margin: "0 0 2px", fontFamily: "'Space Mono', monospace", fontWeight: 700, background: "linear-gradient(135deg, #e94560, #e9b044)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>CASE COMP HQ</h1>
-        <p style={{ color: "#444", fontSize: "11px", margin: "0 0 10px" }}>87 competitions · Pre-loaded strategies for BSc Maths + Accenture → SPJIMR IM&A</p>
+        <p style={{ color: "#444", fontSize: "11px", margin: "0 0 10px" }}>87 competitions · Pre-loaded strategies · Keep a track of everything – At one place</p>
         <div style={{ display: "flex", gap: "6px" }}>
           {[{ l: "Showing", v: list.length, c: "#ddd" }, { l: "Strategized", v: tot, c: "#16c79a" }, { l: "Must Do", v: hi, c: "#e94560" }].map(s => <div key={s.l} style={{ background: "#111118", borderRadius: "7px", padding: "7px 12px", border: "1px solid #1a1a28" }}><div style={{ fontSize: "18px", fontWeight: 700, color: s.c }}>{s.v}</div><div style={{ fontSize: "8px", color: "#555", textTransform: "uppercase", letterSpacing: "0.8px", fontWeight: 600 }}>{s.l}</div></div>)}
         </div>
